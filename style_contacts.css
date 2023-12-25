@@ -1,0 +1,50 @@
+body{
+    background: white url('Фон.jpg') no-repeat fixed right top;
+    padding-right: 100px;
+}
+
+header{
+    margin: 0;
+    display: flex;
+}
+
+.header h1{
+    text-align: left;
+    margin: 0;
+    color: yellow;
+    display: inline-block;
+}
+
+.nav{
+    height: 100%;
+    float: right;
+}
+
+.nav a{
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    color: yellow;
+    display: table;
+}
+
+.nav a:hover{
+  color: #5265f6; 
+}
+
+.nav a li{
+    vertical-align: middle;
+    display: inline;
+    margin: 10;
+    float: right;
+}
+
+.content h3{
+    color: yellow;
+    display: table;
+    margin-top: 60px;
+}
+
+.content p{
+    color: red;
+}
